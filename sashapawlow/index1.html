@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Front-End Development</title>
+  <link rel="shortcut icon" href="https://img.icons8.com/wired/64/000000/p.png">
+  <link rel="stylesheet" href="src/css/fontello.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/preloader.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+
+
+</head>
+
+<body>
+ <div class="loaderArea">
+   <div class="loader"></div>
+</div>
+</body>
+<main>
+    <section class="slider"  id="slider">
+      <div class="slides">
+        <article class="slide" style="background-image: url('src/img/main.jpg')">
+        	<div class="slide__overlay">
+        		<!--  <h1 class="a-fadeName">Hello!<br>
+                I'm Sasha.<br>
+             I'm front-end developer <br>
+        Welcome to my site :)</h1> -->
+        <h1 class="a-fadeName element"></h1>
+     
+           <div class="transition__btn fl-c">
+            
+              <i class="fas fa-angle-double-down  d-b"></i>
+            </div>    
+        	</div>
+          
+        </article>
+       
+      </div>
+    </section>
+    <header class="header">
+        <div class="container">
+          <a href="#" class="logo">
+            PAWLOW
+          </a>
+          
+            <nav class="header__nav">
+              <ul class="menu__items">
+                <li class="menu__item">
+                  <a href="#" class="item__link active__item m1" data-link="0"  >Home</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#"  class="item__link m2" data-link="1">About Me</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#"  class="item__link m3" data-link="2">Portfolio</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="item__link m4" data-link="3">Contact details</a>
+                </li>
+              </ul>
+              <div class="header__burger-menu" id="nav-icon1">
+              		<span></span>
+              		<span></span>
+              		<span></span>
+              </div>
+            </nav>
+        </div>
+        <nav class="header__nav-mobile">
+        	<ul class="menu__items-mobile">
+        		<li class="menu__item-mobile">
+        			<a href="#"  class="m1">Home</a>
+        		</li>
+        		<li class="menu__item-mobile">
+        			<a href="#bio"  class="m2">About Me</a>
+        		</li>
+        		<li class="menu__item-mobile">
+        			<a href="#portfolio"  class="m3">Portfolio</a>
+        		</li>
+        		<li class="menu__item-mobile">
+        			<a href="#footer" class="m4">Contact details</a>
+        		</li>
+        	</ul>
+        </nav>
+    </header>
+     <section class="biography" id="bio">
+      <div class="container text-center">
+          <h2 class="biography__title ">
+              About Me
+          </h2>
+          <div class="biography-wrapper">
+          		<div class="biography__photo" style="background-image: url('./src/img/avatar.jpg')">
+            
+	            </div>
+	          <p class="biography__description">
+	          	Hello! <br>I'm front-end developer.
+	            I work for about a year in company "Remote Employees" in the position Front-end developer.I'm studied at the computer academy "Шаг".I have skills like: C/C++ ,C# , HTML5 , CSS3 , Wordpress, Basic PHP/MySQL ,
+	            Gulp , SASS, BEM ,JavaScript/JQuery , Avocode , Adobe Photoshop , GIT. 
+	          </p>
+          </div>
+         
+
+
+       <div class="skills">
+                  <div class="skills-title">
+                     My skills:
+                  </div>
+                  <div class="skills-box df align-center justify-center">
+                     <div class="skills-block">
+                         <div class="skills-content">
+                           <div class="block-title">
+                              HTML5 <span> - 100%</span>
+                           </div>
+                           <div class="html bar-con">
+                              <div class="bar" data-percent="100"></div>
+                           </div>
+                        </div>
+                        <div class="skills-content">
+                           <div class="block-title">
+                              CSS3 <span> - 90%</span>
+                           </div>
+                           <div class="css bar-con">
+                              <div class="bar" data-percent="90"></div>
+                           </div>
+                        </div>
+                        <div class="skills-content">
+                           <div class="block-title">
+                              Sass <span> - 80%</span>
+                           </div>
+                           <div class="sass bar-con">
+                              <div class="bar" data-percent="80"></div>
+                           </div>
+                        </div>
+                        <div class="skills-content">
+                           <div class="block-title">
+                              WordPress <span> - 80%</span>
+                           </div>
+                           <div class="wordpress bar-con">
+                              <div class="bar" data-percent="80"></div>
+                           </div>
+                        </div>
+                        <div class="skills-content">
+                           <div class="block-title">
+                              Avocode <span> - 100%</span>
+                           </div>
+                           <div class="avocode bar-con">
+                              <div class="bar" data-percent="100"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="skills-block">
+                        <div class="skills-content">
+                           <div class="block-title">
+                              Adobe Photoshop <span> : 50%</span>
+                           </div>
+                           <div class="photoshop bar-con">
+                              <div class="bar" data-percent="50"></div>
+                           </div>
+                        </div>
+                        <div class="skills-content">
+                           <div class="block-title">
+                              JavaScript <span> - 50%</span>
+                           </div>
+                           <div class="javascript bar-con">
+                              <div class="bar" data-percent="50"></div>
+                           </div>
+                        </div>
+                        <div class="skills-content">
+                           <div class="block-title">
+                              jQuery <span> - 65%</span>
+                           </div>
+                           <div class="jQuery bar-con">
+                              <div class="bar" data-percent="65"></div>
+                           </div>
+                        </div>
+                        <div class="skills-content">
+                           <div class="block-title">
+                              Php <span> - 30%</span>
+                           </div>
+                           <div class="php bar-con">
+                              <div class="bar" data-percent="20"></div>
+                           </div>
+                        </div>
+                          <div class="skills-content">
+                           <div class="block-title">
+                              Gulp <span> - 90%</span>
+                           </div>
+                           <div class="gulp bar-con">
+                              <div class="bar" data-percent="90"></div>
+                           </div>
+                        </div>
+                        <div class="skills-content">
+                           <div class="block-title">
+                              Vue.JS <span> - 15%</span>
+                           </div>
+                           <div class="vuejs bar-con">
+                              <div class="bar" data-percent="15"></div>
+                           </div>
+                        </div>
+                        <button class="show_skills">Show more</button>
+                     </div>
+                    
+                  </div>
+               </div>
+      </div>
+    </section>
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <h2 class="portfolio__title">My portfolio</h2>
+            <div class="portfolio__items">
+              
+                 <div class="portfolio__item" style="background-image: url('./src/img/Layout-9.png')">
+
+                    <a href="https://dankegrafik.com" class="overlay-item">
+                      
+                    </a>
+                    <a href="https://dankegrafik.com" class="portfolio__item-hidden-link">https://dankegrafik.com</a>
+                </div>
+                  <div class="portfolio__item "style="background-image: url('./src/img/shan3.png')">
+
+                    <a href="https://regionalservices.net/" class="overlay-item">
+                      
+                    </a>
+                    <a href="https://regionalservices.net/" class="portfolio__item-hidden-link">https://regionalservices.net/</a>
+                </div> 
+                <div class="portfolio__item " style="background-image: url('./src/img/Projeckt-7.png')">
+
+                    <a href="https://jazz-vibes.com/" class="overlay-item">
+                      
+                    </a>
+                    <a href="https://jazz-vibes.com/" class="portfolio__item-hidden-link">https://jazz-vibes.com/</a>
+                </div>
+              
+                  <div class="portfolio__item  hidden-portfolio" style="background-image: url('./src/img/Projeckt-5_1_.png')">
+
+                    <a href="https://davedenemark.com/" class="overlay-item">
+                      
+                    </a>
+                    <a href="https://davedenemark.com/" class="portfolio__item-hidden-link">https://davedenemark.com/</a>
+                </div>
+                  <div class="portfolio__item   hidden-portfolio" style="background-image: url('./src/img/Sch.png')">
+
+                    <a href="https://dutchdesign-boot.com/" class="overlay-item">
+                      
+                    </a>
+                    <a href="https://dutchdesign-boot.com/" class="portfolio__item-hidden-link">  https://dutchdesign-boot.com/</a>
+                </div>
+                  <div class="portfolio__item   hidden-portfolio" style="background-image: url('./src/img/modernf.png')">
+
+                    <a href="https://modernfurniturestyle.com/kreditkarten-fur-einkaufe/" class="overlay-item">
+                      
+                    </a>
+                    <a href="https://modernfurniturestyle.com/kreditkarten-fur-einkaufe/" class="portfolio__item-hidden-link">  https://modernfurniturestyle.com</a>
+                </div>
+                 <div class="portfolio__item   hidden-portfolio"  style="background-image: url('./src/img/main-page.png')">
+
+                    <a href="https://heimdallrsolutions.com/" class="overlay-item">
+                      
+                    </a>
+                    <a href="https://heimdallrsolutions.com/" class="portfolio__item-hidden-link">https://heimdallrsolutions.com</a>
+                </div>
+               <button class="show_more">Show more</button>
+        
+            </div>
+        </div>
+       
+    </section>
+   
+   
+<button class="fas fa-angle-double-down  up-button"></button>   
+</main> 
+<footer class="footer" id="footer">
+  <div class="container">
+      <a href="#" class="logo">PAWLOW</a>
+      <div class="footer_contacts">
+      		<div class="skype">
+      			<span class="icon-skype"></span>
+      			<a href="tel:sashapawlow726">sashapawlow726</a>
+      		</div>
+      		<div class="gmail">
+      			<span class="icon-gmail"></span>
+      			<a href="mailto:sashapawlow726@gmail.com">sashapawlow726@gmail.com</a>
+      		</div>
+      		<div class="call">
+      			<span class="icon-phone-circled"></span>
+      			<a href="tel:+380660845241">+380660845241(Viber)</a>
+      		</div>
+      </div>
+  </div>
+</footer>
+
+
+  <script src="src/js/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script src="src/js/script.js">	
+</script>
+
+<script src="src/js/common.js"></script>
+
+</html>
+
+
+              
+           
+      
