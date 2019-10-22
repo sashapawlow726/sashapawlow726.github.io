@@ -34,14 +34,14 @@
 
 .story__title {
 	color: #000000;
-	font: 18px/18px 'Roboto' , light;
+	font: 2.1rem/2.rem 'Roboto' , light;
 	text-transform: uppercase;
 	letter-spacing: 2.7px;
 	
 }
 
 .story__text {
-	font: 14px/27px 'Roboto';
+	font: 0.8rem/1.8rem 'Roboto';
 	color: #777777;
 	margin-top: 38px;
 	letter-spacing: 1.4px;
@@ -53,10 +53,66 @@
 	justify-content: center; 
 	padding: 70px 0;
 	width: 60vw;
+	margin: 0 auto;
+	
 }
 
 .story_info {
 	padding-left: 5%;
 }
+
+/* team */
+
+.team__title {
+	font: 1.8rem/1.8rem 'Roboto' , 200;
+	text-transform: uppercase;
+}
+
+.team__text {
+	font: 0.8rem/1.8rem 'Roboto' , light;
+	color: #777;
+	margin-top: 30px;
+	padding: 0 32%;
+}
+
+.team__text  , 
+.team__title {
+	text-align: center;
+}
+
+.members {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.member {
+	background: #fff;
+	max-width: 358px;
+	margin: 70px auto;
+}
+
+.member__title {
+	text-transform: uppercase;
+	color: #041608;
+
+	font: 1.5rem/1.5rem 'Roboto';
+	font-weight: 400;
+	
+}
+
+.member__subtitle {
+	color: #777777;
+}
+
+.member__info {
+	padding: 20px 5%;
+}
+
+
 
 
