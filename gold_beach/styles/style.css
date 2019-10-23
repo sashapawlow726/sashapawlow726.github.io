@@ -185,6 +185,20 @@ textarea {
 
 /* mobile menu */
 
+.mobile__menu__wrapper {
+	min-height: 100px;
+	position: relative;
+}
+
+.mobile__menu {
+	position: fixed;
+	
+}
+
+.mobile__menu .logo {
+	width: 150px;
+}
+
 .nav__menu_mobile {
 	display: none;
 }
@@ -201,9 +215,22 @@ textarea {
 
 .burger__menu {
 	z-index: 1000;
-	position: fixed;
-	top: 34px;
-	right: 20px;
+	
+	cursor: pointer;
+	
+}
+
+.burger__menu span {
+	width: 30px;
+	height: 2px;
+	background: #000;
+	display: block;
+	
+	
+}
+
+.burger__menu span:nth-child(2n) {
+	margin: 2px 0;
 }
 
 /* offers */ 
