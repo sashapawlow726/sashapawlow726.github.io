@@ -88,6 +88,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .member {
@@ -107,12 +108,32 @@
 
 .member__subtitle {
 	color: #777777;
+	padding: 10px 0;
 }
 
 .member__info {
 	padding: 20px 5%;
 }
 
-
+@media screen and (max-width : 1650px) {
+	.our_story {
+		
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.story_info {
+		text-align: center;
+	}
+	
+	.story__title {
+		margin-top: 30px;
+	}
+	
+	.story__text {
+		margin-top: 17px;
+	}
+}
 
 
