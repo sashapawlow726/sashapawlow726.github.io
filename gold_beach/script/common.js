@@ -67,11 +67,11 @@ let mobile = 0;
 	
 $('.burger__menu').on('click' , function(){
 	if(mobile == 0){
-		$('.nav__menu_mobile').fadeIn();
+		$('.switcher__mobile-menu').fadeIn();
 		mobile = 1;
 	}
 	else {
-		$('.nav__menu_mobile').fadeOut();
+		$('.switcher__mobile-menu').fadeOut();
 		mobile = 0;
 	}
 	
