@@ -1,17 +1,15 @@
-
 let elem = new Vue({
 		el: '#app',
 		data: {
 			msg: '',
-			msg_id: 0,
-			lightMsg: false,
+			msg_id: 0,		
 			dat:  new Date(),
 			showMsg: false,
 			showTable: false,
 			hours: 0,
 			minutes: 0,
 			messages: [
-				{id: 0 , text: 'Поисковик вам в помощь! Но цена примерно в половину стоимости платья.' , time_date: 1 , backlightMsg: false},
+				{id: 0 , text: 'Поисковик вам в помощь! Но цена примерно в половину стоимости платья.' , time_date: 1},
 				
 			],
 		} ,
@@ -19,38 +17,25 @@ let elem = new Vue({
 		
 		// свойство получает текущее время отправки сообщения
 		todayDate(){
-		let num =  this.dat.getMinutes();
-			
-		// функция добавляет 0 к минутам которые меньше 9	
-			function getZero(num){
-				if (num > 0 && num < 10) { 
-					return '0' + num;
-				} else {
-					return num;
-				}
-			}
-			
+		let num =  this.dat.getMinutes();	
 			return this.dat.getHours() + ':' + num;
 		} ,
-		
-		
-		
+			
 	} ,
-	
 	
 		methods: {
 			switchChat() {
 			this.showTable = !this.showTable;
 			
-		},
+		},	
 			// add new message to chat
 			addMsg (e) {
-				this.showMsg = true;
+				
 				console.log(this.messages.push({
 				id: this.msg_id++,
 				text: this.msg ,
 				time_date: this.todayDate,
-				backlightMsg: this.lightMsg,
+				
 				}))
 				 
 				setTimeout(()=> {
@@ -65,6 +50,11 @@ let elem = new Vue({
 							} , 2000)
 							
 				} , 0)
+				setTimeout(()=> {
+					let users = document.querySelector('.users');
+					users.scrollBy(0, users.clientHeight);
+				}, 10)
+			this.msg = '';	
 				
 			} , 
 		

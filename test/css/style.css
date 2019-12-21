@@ -121,7 +121,7 @@ top: 4px;
 }
 
 .users {
-	height: 300px;
+	height: 314px;
 	overflow-x: auto;
 }
 
@@ -157,10 +157,11 @@ top: 4px;
 }
 
 .user__msg {
-	max-width: 370px;
+	width: 370px;
 	font: 14px/14px  Arial , sans-serif;
 	color: #3e3e3e;
 	margin-left: 15px;
+	word-wrap: break-word;
 	
 }
 
@@ -178,9 +179,10 @@ top: 4px;
 }
 
 #message {
-	width: 480px;
-	height: 80px;
+	width: 460px;
+	height: 60px;
 	resize: none;
+	padding: 10px;
 	
 }
 
@@ -279,9 +281,17 @@ top: 4px;
 	}
 	
 	.users {
-		height: 47px;
+		height: 64px;
 	}
 	#message {
-		height: 50px;
+		height: 30px;
+	}
+	
+	.account {
+		padding: 0 0 0 5%;
+	}
+	
+	.close {
+		top: 24px;
 	}
 }
